@@ -1,0 +1,9 @@
+{
+  "name": "nickperrydigital",
+  "private": true,
+  "description": "Static HTML + Tailwind + Decap CMS site for Hostinger Git deploy.",
+  "scripts": {
+    "build": "python3 scripts/build_site.py",
+    "cms": "npx decap-server"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "siteName": "Nick Perry Digital",
+  "domain": "nickperrydigital.com",
+  "phoneDisplay": "[PHONE NUMBER]",
+  "phoneHref": "#phone-placeholder",
+  "bookingUrl": "#booking-placeholder",
+  "bookingLabel": "[BOOKING LINK]",
+  "emailDisplay": "[CONTACT EMAIL]",
+  "emailHref": "mailto:contact@placeholder.local",
+  "formEndpoint": "[CONTACT FORM ENDPOINT]",
+  "tagline": "Websites and local SEO for the Western Slope"
+}
