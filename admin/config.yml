@@ -1,27 +1,12 @@
 backend:
-  name: github
+  name: git-gateway
   repo: 1nickperry/nickperrydigital
   branch: cursor/site-content-updates
-  # Login: DecapBridge (free hosted auth). After creating the site at
-  # https://decapbridge.com, replace the backend block above with the one
-  # below and paste the site id DecapBridge shows you:
-  # backend:
-  #   name: git-gateway
-  #   repo: 1nickperry/nickperrydigital
-  #   branch: cursor/site-content-updates
-  #   identity_url: https://auth.decapbridge.com/sites/YOUR_DECAPBRIDGE_SITE_ID
-  #   gateway_url: https://gateway.decapbridge.com
-  #   commit_messages:
-  #     create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-  #     update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-  #     delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-  #     uploadMedia: Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
-  #     deleteMedia: Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
-  #     openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
-
-local_backend: true.
-
-local_backend: true
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/d4c34028-c18c-4b7b-a31f-6f7f8eafd71c/pkce
+  auth_token_endpoint: /sites/d4c34028-c18c-4b7b-a31f-6f7f8eafd71c/token
+  gateway_url: https://gateway.decapbridge.com
 
 publish_mode: simple
 media_folder: assets/uploads
