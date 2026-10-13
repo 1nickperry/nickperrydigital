@@ -1,0 +1,123 @@
+{
+  "siteName": "Nick Perry Digital",
+  "personName": "Nick Perry",
+  "domain": "https://nickperrydigital.com",
+  "region": "Colorado's Western Slope",
+  "description": "Nick Perry Digital builds websites and handles local SEO for businesses on Colorado's Western Slope.",
+  "tagline": "Websites and local SEO on Colorado's Western Slope",
+  "email": "hello@nickperrydigital.com",
+  "emailPlaceholder": true,
+  "phoneDisplay": "555-010-0190",
+  "phoneTel": "+15550100190",
+  "phonePlaceholder": true,
+  "bookingUrl": "",
+  "bookingPlaceholder": true,
+  "formEndpoint": "",
+  "formPlaceholder": true,
+  "ctaLabel": "Book a Free Strategy Call",
+  "ctaHref": "/contact/#booking",
+  "ctaBandText": "Tell me the towns you serve and the jobs you want more of. I will tell you whether a website, a Google listing, or a monthly plan is the right next step. The call is free.",
+  "addressRegion": "CO",
+  "addressCountry": "US",
+  "priceRange": "$150 to $1,500",
+  "pricingIntro": "Straightforward prices for a Western Slope business that wants a site and a Google listing that work together. The standard build and the two monthly plans are posted. Anything outside that scope is quoted before work starts.",
+  "pricingMetaDescription": "Website build $1,000 with 90 days of SEO. Monthly plans at $850 and $1,500. Optional $150 care plan. No long-term contract.",
+  "comparisonNote": "Local link and press outreach is research and contact on your behalf. If a publisher or sponsor charges a placement fee, they bill that fee. It is not folded into the monthly price.",
+  "websiteBuild": {
+    "name": "Website build",
+    "price": 1000,
+    "summary": "An SEO-ready site, Google Business Profile setup, and 90 days of SEO after launch.",
+    "includes": [
+      "SEO-ready website",
+      "Google Business Profile setup",
+      "90 days of SEO after launch",
+      "You own the site, the domain, and the content"
+    ]
+  },
+  "carePlan": {
+    "name": "Care plan",
+    "price": 150,
+    "summary": "Optional support after the 90 days that come with a website build.",
+    "includes": [
+      "Hosting",
+      "Security updates",
+      "Software updates",
+      "Small content edits"
+    ]
+  },
+  "plans": [
+    {
+      "id": "foundation",
+      "name": "GBP + Website",
+      "price": 850,
+      "summary": "Google Business Profile management plus ongoing work on the website, for businesses that want a steady local presence.",
+      "bestFor": "Local service businesses that want the foundation plan and a single person running it.",
+      "featured": false
+    },
+    {
+      "id": "ai",
+      "name": "GBP + Website + AI Search",
+      "price": 1500,
+      "summary": "Everything in GBP + Website, plus AI search optimization and local press outreach.",
+      "bestFor": "Businesses that want Google visibility and a serious effort to be mentioned by AI answer tools.",
+      "featured": true
+    }
+  ],
+  "comparisonGroups": [
+    {
+      "title": "One-time setup",
+      "rows": [
+        { "label": "Google Business Profile setup and cleanup", "foundation": true, "ai": true },
+        { "label": "Review request setup", "foundation": true, "ai": true },
+        { "label": "Google Local Services Ads setup, where the category qualifies", "foundation": true, "ai": true },
+        { "label": "Core citation setup", "foundation": true, "ai": true },
+        { "label": "Website audit", "foundation": true, "ai": true },
+        { "label": "Competitor scan", "foundation": true, "ai": true },
+        { "label": "SEO opportunity review", "foundation": false, "ai": true },
+        { "label": "AI visibility check", "foundation": false, "ai": true }
+      ]
+    },
+    {
+      "title": "Monthly work",
+      "rows": [
+        { "label": "Google Business Profile management", "foundation": true, "ai": true },
+        { "label": "Local Services Ads management, where the category qualifies", "foundation": true, "ai": true },
+        { "label": "Weekly Google posts", "foundation": true, "ai": true },
+        { "label": "Review requests and replies", "foundation": true, "ai": true },
+        { "label": "Spam and duplicate cleanup", "foundation": true, "ai": true },
+        { "label": "A named contact", "foundation": true, "ai": true },
+        { "label": "Strategy notes with the monthly report", "foundation": true, "ai": true },
+        { "label": "Monthly performance report", "foundation": true, "ai": true },
+        { "label": "On-site SEO updates", "foundation": true, "ai": true },
+        { "label": "Content writing and page updates", "foundation": true, "ai": true },
+        { "label": "Conversion improvements on key pages", "foundation": true, "ai": true },
+        { "label": "AI search optimization", "foundation": false, "ai": true },
+        { "label": "AI visibility monitoring and reporting", "foundation": false, "ai": true },
+        { "label": "Local link and press outreach", "foundation": false, "ai": true }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "name": "Google Ads management",
+      "note": "Custom quote based on the account and the ad budget. This is separate from Local Services Ads setup inside the monthly plans."
+    },
+    {
+      "name": "Website design beyond the standard build",
+      "note": "Custom quote when the project is larger than the $1,000 local site."
+    },
+    {
+      "name": "Logo and branding",
+      "note": "Custom quote based on how much of the brand needs to be drawn from scratch."
+    }
+  ],
+  "guarantees": [
+    "Monthly plans have no long-term contract. You can stop at the end of a month.",
+    "You own the website, the domain, and the content.",
+    "The $1,000 website build includes an SEO-ready site, Google Business Profile setup, and 90 days of SEO.",
+    "The price is set before work starts. The agreed scope does not grow into a surprise invoice.",
+    "The $150 monthly care plan is optional. It covers hosting, security updates, software updates, and small edits.",
+    "Monthly plans include a named contact and a written report each month.",
+    "If a plan includes local press or sponsorship outreach, any placement fee is billed by the publisher or organization, not hidden in the monthly price."
+  ]
+}

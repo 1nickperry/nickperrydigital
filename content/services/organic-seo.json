@@ -1,0 +1,29 @@
+{
+  "title": "Organic SEO",
+  "menuTitle": "Organic SEO",
+  "slug": "organic-seo",
+  "order": 4,
+  "summary": "The non-map side of search: page structure, useful content, and technical fixes so the site can rank beyond the listing.",
+  "metaTitle": "Organic SEO for Local Businesses | Nick Perry Digital",
+  "metaDescription": "Organic SEO for Western Slope service businesses: site structure, content, and technical fixes, paired with local search work.",
+  "body": "Organic SEO is the work on your website that helps ordinary Google results, not only the map. A strong listing can bring calls while the site still fails to explain a service or load cleanly on a phone.\n\nOn a monthly plan this shows up as on-site updates, new or revised pages, and technical fixes. It is also part of the 90 days after a website build. I write for the services and towns you named. I do not publish filler articles to hit a word count.",
+  "gets": [
+    "A look at titles, headings, and internal links",
+    "Pages that answer the questions customers already ask",
+    "Technical fixes that affect indexing and speed",
+    "Content updates tied to services you want to sell",
+    "Notes in the monthly report on what changed and why"
+  ],
+  "steps": [
+    { "title": "Read the site", "text": "I review what already ranks, what is thin, and which services have no page at all." },
+    { "title": "Fix the important pages", "text": "Service pages, the homepage, and town pages come before a blog burst." },
+    { "title": "Add proof over time", "text": "New pages and edits follow the jobs you want. Each month the report says what was published." }
+  ],
+  "pairs": ["local-seo", "web-design", "ai-search-optimization"],
+  "faqs": [
+    { "q": "How is organic SEO different from local SEO?", "a": "Local SEO leans on the Google listing, the map, and town relevance. Organic SEO leans on the website itself. You usually need both." },
+    { "q": "Will you write a blog post every week?", "a": "Only if it helps. A useless post is not a strategy. The monthly plans include content, and I will tell you what I am writing before it goes live." },
+    { "q": "Is this included in the $850 plan?", "a": "Yes. On-site SEO, content updates, and conversion edits are in both monthly plans. The $1,500 plan adds AI search work and local outreach on top." },
+    { "q": "Can organic SEO fix a slow or broken site?", "a": "Some fixes are part of the work. If the site needs to be rebuilt, that is the website build or a custom quote, not a blog calendar." }
+  ]
+}

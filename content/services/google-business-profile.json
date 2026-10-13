@@ -1,0 +1,30 @@
+{
+  "title": "Google Business Profile",
+  "menuTitle": "Google Business Profile",
+  "slug": "google-business-profile",
+  "order": 5,
+  "summary": "Setup and monthly care for the listing that shows up in Google Maps and the map pack.",
+  "metaTitle": "Google Business Profile Management | Nick Perry Digital",
+  "metaDescription": "Google Business Profile setup and monthly management for Western Slope businesses, included in the $850 and $1,500 plans.",
+  "body": "For a lot of local companies, the Google listing is the real homepage. It is where the phone number, the hours, the reviews, and the photos get judged in a few seconds.\n\nSetup is included with the $1,000 website build and with both monthly plans. Monthly care covers posts, review replies, category checks, and cleanup when spam or a duplicate shows up. You keep ownership of the profile. I should never be the only person who can get into it.",
+  "gets": [
+    "Claim or cleanup of the existing profile",
+    "Categories, services, and attributes matched to the work you want",
+    "Photos and weekly posts on a monthly plan",
+    "Review request setup and replies in your voice",
+    "Duplicate and spam cleanup",
+    "A monthly note on calls, clicks, and direction requests"
+  ],
+  "steps": [
+    { "title": "Get access", "text": "We confirm who owns the profile and remove old managers who should not be there." },
+    { "title": "Make the record true", "text": "Name, phone, hours, services, and description get aligned with the website." },
+    { "title": "Keep it active", "text": "On a monthly plan I post, watch reviews, and fix problems before they sit for a month." }
+  ],
+  "pairs": ["local-seo", "reputation-management", "web-design"],
+  "faqs": [
+    { "q": "My profile was suspended. Can you help?", "a": "Often, yes. I review what Google flagged, gather the documents they ask for, and file a reinstatement. Simple cases move in days. Messy cases take longer, and I will tell you which one yours looks like." },
+    { "q": "Do weekly posts matter?", "a": "They are a small part of the picture, not a magic lever. They give the listing fresh offers and a link back to the right page. I include them on the monthly plans because a silent listing looks neglected." },
+    { "q": "Who owns the listing?", "a": "You do. I will not build a profile that only I can access. If I am removed as a manager, the listing stays yours." },
+    { "q": "Is this a separate bill from the monthly plan?", "a": "No. Profile setup and monthly management are inside GBP + Website at $850 and the AI plan at $1,500. The website build also includes setup." }
+  ]
+}

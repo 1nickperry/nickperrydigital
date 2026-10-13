@@ -1,0 +1,29 @@
+{
+  "title": "Conversion rate optimization",
+  "menuTitle": "Conversion rate optimization",
+  "slug": "conversion-rate-optimization",
+  "order": 9,
+  "summary": "Make the pages you already have better at turning a visit into a call or a form fill.",
+  "metaTitle": "Conversion Rate Optimization | Nick Perry Digital",
+  "metaDescription": "Page and form improvements for local business websites. Included in the monthly plans, with larger passes quoted separately.",
+  "body": "A site can rank and still waste the visit. The phone number hides on mobile. The form asks for a life story. The headline talks about the company instead of the job the customer needs done.\n\nBoth monthly plans include conversion improvements on key pages. A larger pass, such as a new landing page set for ads, is a custom quote. I look at calls and form fills, not vanity charts. If tracking is not in place, that is the first fix.",
+  "gets": [
+    "A review of the homepage, the main service pages, and the contact path",
+    "Clearer headlines, calls to action, and phone placement",
+    "Shorter forms",
+    "Call and form tracking so we know what changed",
+    "Edits shipped on the monthly plan, or a quoted project if the scope is bigger"
+  ],
+  "steps": [
+    { "title": "Watch the path", "text": "I go through the site the way a customer on a phone would, from the listing or the ad to the call button." },
+    { "title": "Change a few things", "text": "We edit the pages that get the traffic. A redesign of every page is a website project, not a tweak." },
+    { "title": "Check the calls", "text": "The next report should say whether calls and forms moved, and what we will try next if they did not." }
+  ],
+  "pairs": ["web-design", "lead-generation", "google-ads"],
+  "faqs": [
+    { "q": "Do I need a big testing tool?", "a": "Usually no. Local sites often do not have enough traffic for a fancy split test to mean anything. Clearer pages and working tracking come first." },
+    { "q": "Is this included monthly?", "a": "Yes. Conversion improvements on key pages are in both monthly plans. A separate landing-page project is quoted." },
+    { "q": "Can you raise my close rate on the phone?", "a": "I can make it easier to call and make sure the page sets the right expectation. How the phone is answered is your process. I will not claim credit for a sales script I do not run." },
+    { "q": "What if I do not have analytics?", "a": "Then we install a simple setup for calls and forms before we debate design. Otherwise we are guessing." }
+  ]
+}

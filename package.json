@@ -1,0 +1,22 @@
+{
+  "name": "nickperrydigital",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static website for Nick Perry Digital",
+  "type": "module",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/site.css --minify",
+    "build:html": "node src/build.mjs",
+    "build": "npm run build:css && npm run build:html",
+    "check": "node src/check.mjs",
+    "dev": "npm run build && node src/serve.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "js-yaml": "^5.4.3",
+    "marked": "^18.1.1"
+  }
+}

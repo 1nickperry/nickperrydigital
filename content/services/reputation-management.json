@@ -1,0 +1,29 @@
+{
+  "title": "Reputation management",
+  "menuTitle": "Reputation management",
+  "slug": "reputation-management",
+  "order": 8,
+  "summary": "A steady way to ask for reviews, reply in your voice, and deal with fakes without begging customers.",
+  "metaTitle": "Review and Reputation Management | Nick Perry Digital",
+  "metaDescription": "Review requests, replies, and fake-review cleanup for Western Slope businesses. Included in the monthly local SEO plans.",
+  "body": "Reviews are part of local search, and they are also the thing a person reads in the truck before they call the next company. A pile of unread one-star posts, or a listing with no new reviews for a year, both cost you jobs.\n\nOn the monthly plans I set up a short ask that goes out after the work is done, reply to new reviews, and flag fakes. I will not buy reviews or tell customers what star to tap. That is how listings get wiped.",
+  "gets": [
+    "A simple review link and a message you are willing to send",
+    "Timing that follows a finished job, not a random Tuesday blast",
+    "Replies drafted in your voice for you to approve or for me to post",
+    "A process for unfair or fake reviews",
+    "Notes in the monthly report on review velocity and themes"
+  ],
+  "steps": [
+    { "title": "Set the ask", "text": "One link, a short message, and a moment in the job when asking is reasonable." },
+    { "title": "Reply", "text": "New reviews get a response. Patterns in the comments tell us what the site should say more clearly." },
+    { "title": "Protect the listing", "text": "Duplicates, spam reviews, and impersonation get documented and challenged." }
+  ],
+  "pairs": ["google-business-profile", "local-seo", "lead-generation"],
+  "faqs": [
+    { "q": "Can you remove a bad review?", "a": "Only if it breaks Google's rules. A real customer who is unhappy usually stays up. I can help you reply and, when it is allowed, file a dispute. I will not promise a deletion." },
+    { "q": "Will you write fake reviews?", "a": "No. I will not ask friends to pose as customers, and I will not sell review packages." },
+    { "q": "Is this included in the monthly plan?", "a": "Yes. Review strategy and management are part of both the $850 and $1,500 plans." },
+    { "q": "What if we barely have any reviews?", "a": "Then the first job is a clean ask after real jobs, not a gimmick. New reviews take weeks or months. That is normal." }
+  ]
+}

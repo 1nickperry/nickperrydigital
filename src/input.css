@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-pine;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-6xl px-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full bg-pine px-5 py-2.5 text-sm font-semibold text-white no-underline transition hover:bg-pineDark;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-full border border-pine px-5 py-2.5 text-sm font-semibold text-pine no-underline transition hover:bg-pine hover:text-white;
+  }
+
+  .btn-light {
+    @apply inline-flex items-center justify-center rounded-full bg-paper px-5 py-2.5 text-sm font-semibold text-pine no-underline transition hover:bg-white;
+  }
+
+  .display {
+    @apply font-serif text-4xl leading-[1.1] tracking-tight text-ink sm:text-5xl;
+  }
+
+  .h2 {
+    @apply font-serif text-3xl leading-tight tracking-tight text-ink;
+  }
+
+  .lede {
+    @apply text-lg leading-relaxed text-muted;
+  }
+
+  .kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-pine;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-card p-6;
+  }
+
+  .prose-np {
+    @apply max-w-none text-base leading-relaxed text-ink;
+  }
+
+  .prose-np h2 {
+    @apply mt-10 font-serif text-3xl leading-tight tracking-tight;
+  }
+
+  .prose-np h3 {
+    @apply mt-6 font-serif text-xl leading-snug;
+  }
+
+  .prose-np p {
+    @apply mt-4;
+  }
+
+  .prose-np ul {
+    @apply mt-4 list-disc space-y-2 pl-5;
+  }
+
+  .prose-np ol {
+    @apply mt-4 list-decimal space-y-2 pl-5;
+  }
+
+  .prose-np a {
+    @apply font-semibold text-pine underline decoration-pine/30 underline-offset-2 hover:decoration-pine;
+  }
+
+  .prose-np strong {
+    @apply font-semibold;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full bg-copper/10 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-copper;
+  }
+}

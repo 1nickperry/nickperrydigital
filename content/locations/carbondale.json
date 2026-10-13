@@ -1,0 +1,19 @@
+{
+  "slug": "carbondale",
+  "name": "Carbondale",
+  "county": "Garfield County",
+  "order": 10,
+  "card": "A Roaring Fork Valley town between Glenwood Springs and Aspen.",
+  "near": "It sits between Glenwood Springs and Aspen on Highway 82.",
+  "metaTitle": "Carbondale Websites and Local SEO | Nick Perry Digital",
+  "metaDescription": "Websites and local SEO for Carbondale, Colorado. Built around the Roaring Fork Valley, not a generic resort template.",
+  "body": "Carbondale is its own town in the Roaring Fork Valley. Some customers are local. Some are on the way to Aspen. Folding the business into an Aspen page usually hides it from the people who live closest.\n\nI treat Carbondale as the home base when that is the truth, and I mention Glenwood Springs or Aspen only where you actually work.",
+  "businesses": [
+    "Valley contractors and home services",
+    "Food, retail, and studios",
+    "Professional offices",
+    "Outdoor and recreation businesses"
+  ],
+  "extraQ": "We are between Glenwood and Aspen. Which town should the site claim?",
+  "extraA": "Claim the town where the business really is, then name the others you serve. A Carbondale company that only markets itself as Aspen confuses both customers and Google."
+}

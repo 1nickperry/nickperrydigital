@@ -1,0 +1,30 @@
+{
+  "title": "Local SEO",
+  "menuTitle": "Local SEO",
+  "slug": "local-seo",
+  "order": 3,
+  "summary": "Map pack and town-level search: the Google listing, citations, location pages, and reviews working as one system.",
+  "metaTitle": "Local SEO on the Western Slope | Nick Perry Digital",
+  "metaDescription": "Local SEO for Western Slope businesses: Google Business Profile, citations, location pages, and reviews. Included in the monthly plans.",
+  "body": "Local SEO is how you show up when someone nearby searches for the job you do. The map pack, the listing, and the pages on your site have to agree on your name, your services, and the towns you actually cover.\n\nI will not open a fake listing for every town on the highway. One real location gets one Google Business Profile. Nearby towns are covered with an honest service area and pages that say something true. Local SEO is part of both monthly plans and part of the 90 days after a website build.",
+  "gets": [
+    "Google Business Profile cleanup and ongoing care",
+    "Service list and categories that match the work you want",
+    "Citation cleanup so directories agree on your name, address, and phone",
+    "Location pages for towns you truly serve",
+    "A review request path that is short enough for customers to finish",
+    "A monthly report on calls, direction requests, and queries"
+  ],
+  "steps": [
+    { "title": "Audit", "text": "I check the listing, the site, and the directories for conflicts, duplicates, and missing services." },
+    { "title": "Fix the record", "text": "Categories, services, photos, and name consistency come first. Fancy content does not help a listing that contradicts itself." },
+    { "title": "Keep it current", "text": "Posts, review replies, and page updates continue on the monthly plan so the record does not go stale." }
+  ],
+  "pairs": ["google-business-profile", "organic-seo", "reputation-management"],
+  "faqs": [
+    { "q": "Is local SEO the same as a website?", "a": "No. The site is one piece. Local SEO also covers the Google listing, directories, reviews, and the towns you say you serve. The monthly plans include both the listing and the site." },
+    { "q": "Can you rank me in every Western Slope town?", "a": "Not honestly, and not with duplicate listings. We pick the towns where you will actually drive, and we build the record around those." },
+    { "q": "How is this priced?", "a": "It is included in the $850 and $1,500 monthly plans, and the website build includes 90 days of SEO. I do not sell a separate mystery retainer for the same work." },
+    { "q": "Do you guarantee the map pack?", "a": "No. I guarantee the work listed on the pricing page: the setup, the monthly tasks, the report, and the contract terms. Rankings are an outcome, not a promise." }
+  ]
+}
