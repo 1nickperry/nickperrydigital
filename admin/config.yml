@@ -1,11 +1,12 @@
 backend:
-  name: github
+  name: git-gateway
   repo: 1nickperry/nickperrydigital
-  branch: main
-  # After merge, Hostinger Git can auto-deploy main. Until then, edit locally
-  # with `npx decap-server` and local_backend: true.
-
-local_backend: true
+  branch: cursor/site-content-updates
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/d4c34028-c18c-4b7b-a31f-6f7f8eafd71c/pkce
+  auth_token_endpoint: /sites/d4c34028-c18c-4b7b-a31f-6f7f8eafd71c/token
+  gateway_url: https://gateway.decapbridge.com
 
 publish_mode: simple
 media_folder: assets/uploads

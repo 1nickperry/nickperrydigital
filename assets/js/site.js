@@ -79,11 +79,22 @@
     form.addEventListener("submit", function (event) {
       event.preventDefault();
       var note = form.querySelector("[data-form-note]");
-      if (note) {
-        note.hidden = false;
-        note.textContent =
-          "This form is a placeholder until a booking link and form endpoint are connected. Use the booking placeholder or phone placeholder to reach Nick.";
-      }
+      var btn = form.querySelector("button[type=submit]");
+      var data = {};
+      new FormData(form).forEach(function (v, k) { data[k] = v; });
+      data.page = window.location.pathname;
+      if (btn) btn.disabled = true;
+      fetch(form.getAttribute("action"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      }).then(function (r) {
+        if (!r.ok) throw new Error("bad status");
+        form.reset();
+        if (note) { note.hidden = false; note.textContent = "Thanks! Your message is in. Nick will get back to you within one business day."; }
+      }).catch(function () {
+        if (note) { note.hidden = false; note.textContent = "Something went wrong sending that. Please call (702) 342-2909 or email 1nickperry@gmail.com."; }
+      }).finally(function () { if (btn) btn.disabled = false; });
     });
   }
 })();
