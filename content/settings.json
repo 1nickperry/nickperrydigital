@@ -1,12 +1,12 @@
 {
   "siteName": "Nick Perry Digital",
   "domain": "nickperrydigital.com",
-  "phoneDisplay": "[PHONE NUMBER]",
-  "phoneHref": "#phone-placeholder",
-  "bookingUrl": "#booking-placeholder",
-  "bookingLabel": "[BOOKING LINK]",
-  "emailDisplay": "[CONTACT EMAIL]",
-  "emailHref": "mailto:contact@placeholder.local",
+  "phoneDisplay": "(702) 342-2909",
+  "phoneHref": "tel:+17023422909",
+  "bookingUrl": "https://cal.com/perryecom/30-min-meeting",
+  "bookingLabel": "Book a free strategy call",
+  "emailDisplay": "1nickperry@gmail.com",
+  "emailHref": "mailto:1nickperry@gmail.com",
   "formEndpoint": "[CONTACT FORM ENDPOINT]",
   "tagline": "Websites and local SEO for the Western Slope"
 }
