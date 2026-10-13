@@ -54,15 +54,21 @@ a {
 .skip-link {
   position: absolute;
   left: 12px;
-  top: -40px;
+  top: 12px;
   background: var(--gold);
   color: var(--navy-deep);
   padding: 8px 12px;
   z-index: 100;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .skip-link:focus {
-  top: 12px;
+  clip-path: none;
+  width: auto;
+  height: auto;
 }
 
 .wrap {
@@ -185,8 +191,9 @@ a {
 .hero-copy {
   position: relative;
   z-index: 1;
-  padding: 96px 0 80px;
-  max-width: 640px;
+  padding: 108px 0 88px;
+  max-width: 680px;
+  text-align: left;
 }
 
 .eyebrow {
@@ -217,11 +224,17 @@ h3,
   font-weight: 560;
   letter-spacing: -0.03em;
   line-height: 1.12;
+  color: inherit;
 }
 
 h1 {
-  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-size: clamp(2.6rem, 5.4vw, 4.6rem);
   margin: 0 0 18px;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  max-width: 16ch;
 }
 
 h2 {
