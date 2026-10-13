@@ -7,6 +7,6 @@
   "bookingLabel": "Book a free strategy call",
   "emailDisplay": "1nickperry@gmail.com",
   "emailHref": "mailto:1nickperry@gmail.com",
-  "formEndpoint": "[CONTACT FORM ENDPOINT]",
+  "formEndpoint": "https://n8n.srv1173388.hstgr.cloud/webhook/nickperrydigital-contact",
   "tagline": "Websites and local SEO for the Western Slope"
 }

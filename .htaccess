@@ -1,3 +1,12 @@
+Redirect 301 /awards/ https://nickperrydigital.com/nick-perry/
+Redirect 301 /case-studies/dispensary-seo/ https://nickperrydigital.com/results/
+Redirect 301 /case-studies/placeholder-01-local-service/ https://perryecomgrowth.com/case-studies/buzrub
+Redirect 301 /case-studies/placeholder-02-professional/ https://perryecomgrowth.com/case-studies/mymaxxair
+Redirect 301 /case-studies/placeholder-03-home-services/ https://perryecomgrowth.com/case-studies/childrens-optical
+Redirect 301 /case-studies/placeholder-04-hospitality/ https://perryecomgrowth.com/case-studies/96-shades
+Redirect 301 /case-studies/placeholder-05-ecommerce/ https://nickperrydigital.com/results/
+RedirectMatch 301 ^/case-studies/?$ https://nickperrydigital.com/results/
+RedirectMatch 301 ^/awards$ https://nickperrydigital.com/nick-perry/
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 Options -MultiViews
