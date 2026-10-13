@@ -1,0 +1,30 @@
+{
+  "title": "AI search optimization",
+  "menuTitle": "AI search optimization",
+  "slug": "ai-search-optimization",
+  "order": 7,
+  "summary": "Make the business easy for answer engines to understand and cite. Included in the $1,500 monthly plan. Not a promise of a ChatGPT mention.",
+  "metaTitle": "AI Search Optimization | Nick Perry Digital",
+  "metaDescription": "AI search optimization for local businesses on the Western Slope. Included in the $1,500 plan. No guaranteed chatbot placement.",
+  "body": "People are starting to ask ChatGPT, Gemini, and Google's AI answers for a plumber, a dentist, or a shop in a specific town. Those tools lean on the same public record as classic search: your site, your Google listing, reviews, and directories. They also like pages that answer a question in plain language.\n\nAI search optimization is the extra work in the $1,500 plan. It includes an AI visibility check, content shaped for answers, monitoring, and local outreach. I do not guarantee that any assistant will recommend you. Anyone who does is selling a result they do not control.",
+  "gets": [
+    "A check of how your name, services, and towns are described in public",
+    "Pages and listing text that answer real customer questions",
+    "Alignment between the site, the Google profile, and major directories",
+    "Monitoring for whether AI tools mention you, with the limits of that check stated",
+    "Local link and press outreach, with placement fees billed by the publisher",
+    "A monthly note on what changed"
+  ],
+  "steps": [
+    { "title": "See the record", "text": "I look at what an assistant can actually find: the site, the listing, reviews, and conflicting directory data." },
+    { "title": "Make it quotable", "text": "We tighten service descriptions and FAQs so a tool can repeat them without inventing details." },
+    { "title": "Watch and adjust", "text": "Each month I note mentions I can verify and the gaps that are still blocking a clear recommendation." }
+  ],
+  "pairs": ["organic-seo", "local-seo", "google-business-profile"],
+  "faqs": [
+    { "q": "What is AI search optimization?", "a": "It is the work of making your public information clear enough that answer engines can describe you correctly. It sits on top of ordinary SEO and a healthy Google listing." },
+    { "q": "Can you get my business into ChatGPT?", "a": "I can improve the sources those tools tend to use. I cannot force a mention. The $1,500 plan includes the work. It does not include a guaranteed placement." },
+    { "q": "How is this different from SEO?", "a": "SEO is still the base: a clear site, a real listing, and consistent facts. AI search work adds answer-style content, a visibility check, and outreach. The $850 plan is the base. The $1,500 plan adds this layer." },
+    { "q": "Does this matter for a small town?", "a": "Yes, if customers in that town are asking assistants for recommendations. The same cleanup that helps Google also helps those tools. A thin page with a city name stuffed into it does not." }
+  ]
+}

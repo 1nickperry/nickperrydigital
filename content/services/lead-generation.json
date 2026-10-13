@@ -1,0 +1,29 @@
+{
+  "title": "Lead generation",
+  "menuTitle": "Lead generation",
+  "slug": "lead-generation",
+  "order": 11,
+  "summary": "The path from a search to a real conversation: listing, page, form, and call tracking, without a promised lead count.",
+  "metaTitle": "Lead Generation for Local Businesses | Nick Perry Digital",
+  "metaDescription": "Local lead generation for Western Slope businesses through the site, the Google listing, and optional ads. No invented lead counts.",
+  "body": "Leads are calls and form fills from people who want the work you do. They come from the listing, the site, and sometimes ads. I will not sell you a package with a guaranteed number of leads. That number depends on your town, your trade, your reviews, and how fast you answer the phone.\n\nThe monthly plans already include the listing, the site, and conversion edits. If you need extra landing pages, call tracking, or a tighter follow-up process, I will quote that work. Google Ads, if you want paid leads, is its own custom quote.",
+  "gets": [
+    "A map of where leads should come from: listing, site, or ads",
+    "Service pages and a contact path that ask for the right job",
+    "Call and form tracking",
+    "Review and listing work so the click is more likely to become a call",
+    "A quoted add-on when you need pages or ads beyond the monthly plan"
+  ],
+  "steps": [
+    { "title": "Name the job", "text": "We pick the services worth a lead. Not every search query deserves a phone call." },
+    { "title": "Open the path", "text": "The listing, the page, and the form all describe that job the same way." },
+    { "title": "Watch the real calls", "text": "Reports talk about calls and forms. They do not stop at impressions." }
+  ],
+  "pairs": ["local-seo", "google-ads", "conversion-rate-optimization"],
+  "faqs": [
+    { "q": "How many leads will I get?", "a": "I will not put a number on this page. On a strategy call I can talk about your town and your current call volume. A guaranteed lead count is not something I sell." },
+    { "q": "Is lead generation a separate retainer?", "a": "The core path is inside the monthly plans. Extra landing pages, ads management, or a more involved follow-up setup are custom quotes." },
+    { "q": "Do you sell shared leads?", "a": "No. I do not run a lead marketplace or resell the same lead to several companies." },
+    { "q": "What if nobody answers the phone?", "a": "Then the marketing is not the only problem. I will say that. A fast website cannot fix a phone that rings out." }
+  ]
+}

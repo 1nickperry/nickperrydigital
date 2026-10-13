@@ -1,0 +1,254 @@
+# Decap CMS for Nick Perry Digital.
+# GitHub login needs an OAuth proxy. Replace base_url before using /admin on the live site.
+# See the README for setup steps. local_backend lets you edit on localhost with decap-server.
+
+local_backend: true
+
+backend:
+  name: github
+  repo: 1nickperry/nickperrydigital
+  branch: main
+  base_url: https://oauth-proxy.example.com
+  auth_endpoint: auth
+
+site_url: https://nickperrydigital.com
+display_url: https://nickperrydigital.com
+publish_mode: simple
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - label: Settings
+        name: settings
+        file: content/settings.json
+        fields:
+          - { label: Site name, name: siteName, widget: string }
+          - { label: Person name, name: personName, widget: string }
+          - { label: Domain, name: domain, widget: string }
+          - { label: Region, name: region, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Email is placeholder, name: emailPlaceholder, widget: boolean }
+          - { label: Phone display, name: phoneDisplay, widget: string }
+          - { label: Phone tel, name: phoneTel, widget: string }
+          - { label: Phone is placeholder, name: phonePlaceholder, widget: boolean }
+          - { label: Booking URL, name: bookingUrl, widget: string, required: false }
+          - { label: Booking is placeholder, name: bookingPlaceholder, widget: boolean }
+          - { label: Form endpoint, name: formEndpoint, widget: string, required: false }
+          - { label: Form is placeholder, name: formPlaceholder, widget: boolean }
+          - { label: CTA label, name: ctaLabel, widget: string }
+          - { label: CTA href, name: ctaHref, widget: string }
+          - { label: CTA band text, name: ctaBandText, widget: text }
+          - { label: Address region, name: addressRegion, widget: string }
+          - { label: Address country, name: addressCountry, widget: string }
+          - { label: Price range, name: priceRange, widget: string }
+          - { label: Pricing intro, name: pricingIntro, widget: text }
+          - { label: Pricing meta description, name: pricingMetaDescription, widget: text }
+          - { label: Comparison note, name: comparisonNote, widget: text }
+          - label: Website build
+            name: websiteBuild
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: number }
+              - { label: Summary, name: summary, widget: text }
+              - label: Includes
+                name: includes
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: Care plan
+            name: carePlan
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: number }
+              - { label: Summary, name: summary, widget: text }
+              - label: Includes
+                name: includes
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: Plans
+            name: plans
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: number }
+              - { label: Summary, name: summary, widget: text }
+              - { label: Best for, name: bestFor, widget: text }
+              - { label: Featured, name: featured, widget: boolean }
+          - label: Comparison groups
+            name: comparisonGroups
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Rows
+                name: rows
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Foundation plan, name: foundation, widget: boolean }
+                  - { label: AI plan, name: ai, widget: boolean }
+          - label: Add-ons
+            name: addons
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Note, name: note, widget: text }
+          - label: Guarantees
+            name: guarantees
+            widget: list
+            field: { label: Guarantee, name: guarantee, widget: text }
+
+  - name: home
+    label: Home page
+    files:
+      - label: Home
+        name: home
+        file: content/home.json
+        fields:
+          - { label: Meta title, name: metaTitle, widget: string }
+          - { label: Meta description, name: metaDescription, widget: text }
+          - { label: Hero eyebrow, name: heroEyebrow, widget: string }
+          - { label: Hero title, name: heroTitle, widget: string }
+          - { label: Hero text, name: heroText, widget: text }
+          - { label: Intro title, name: introTitle, widget: string }
+          - { label: Intro text, name: introText, widget: markdown }
+          - { label: Services title, name: servicesTitle, widget: string }
+          - { label: Services text, name: servicesText, widget: text }
+          - { label: Towns title, name: townsTitle, widget: string }
+          - { label: Towns text, name: townsText, widget: text }
+          - { label: Guarantees title, name: guaranteesTitle, widget: string }
+          - { label: Guarantees text, name: guaranteesText, widget: text }
+          - { label: Results title, name: resultsTitle, widget: string }
+          - { label: Results text, name: resultsText, widget: text }
+          - { label: Praise title, name: praiseTitle, widget: string }
+          - { label: Praise text, name: praiseText, widget: text }
+          - { label: Trusted title, name: trustedTitle, widget: string }
+          - { label: Trusted text, name: trustedText, widget: text }
+          - { label: Press title, name: pressTitle, widget: string }
+          - { label: Press text, name: pressText, widget: text }
+          - { label: Featured title, name: featuredTitle, widget: string }
+          - { label: Featured text, name: featuredText, widget: text }
+
+  - name: pages
+    label: Pages
+    folder: content/pages
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Meta title, name: metaTitle, widget: string }
+      - { label: Meta description, name: metaDescription, widget: text }
+      - { label: Layout, name: layout, widget: string, required: false, hint: "Use portrait on the About page. Leave blank for a normal prose page." }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: services
+    label: Services
+    folder: content/services
+    create: true
+    extension: json
+    format: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Menu title, name: menuTitle, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Meta title, name: metaTitle, widget: string }
+      - { label: Meta description, name: metaDescription, widget: text }
+      - { label: Body, name: body, widget: markdown }
+      - label: What you get
+        name: gets
+        widget: list
+        field: { label: Item, name: item, widget: string }
+      - label: Steps
+        name: steps
+        widget: list
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Text, name: text, widget: text }
+      - label: Paired service slugs
+        name: pairs
+        widget: list
+        field: { label: Slug, name: slug, widget: string }
+      - label: FAQs
+        name: faqs
+        widget: list
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Answer, name: a, widget: text }
+
+  - name: locations
+    label: Locations
+    folder: content/locations
+    create: true
+    extension: json
+    format: json
+    identifier_field: name
+    slug: "{{fields.slug}}"
+    summary: "{{name}}"
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: County, name: county, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Card text, name: card, widget: text }
+      - { label: Nearby note, name: near, widget: text }
+      - { label: Meta title, name: metaTitle, widget: string }
+      - { label: Meta description, name: metaDescription, widget: text }
+      - { label: Intro, name: body, widget: markdown }
+      - label: Business types
+        name: businesses
+        widget: list
+        field: { label: Type, name: type, widget: string }
+      - { label: Extra question, name: extraQ, widget: string }
+      - { label: Extra answer, name: extraA, widget: text }
+
+  - name: case-studies
+    label: Case studies
+    folder: content/case-studies
+    create: true
+    extension: json
+    format: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{title}}"
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Industry, name: industry, widget: string }
+      - { label: Region, name: region, widget: string }
+      - { label: Featured on home, name: featured, widget: boolean }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Meta title, name: metaTitle, widget: string }
+      - { label: Meta description, name: metaDescription, widget: text }
+      - { label: Situation, name: situation, widget: text }
+      - { label: Approach, name: approach, widget: text }
+      - { label: Outcome note, name: outcomeNote, widget: text }
+
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Date, name: date, widget: string, hint: "YYYY-MM-DD" }
+      - { label: Draft, name: draft, widget: boolean, required: false }
+      - { label: Body, name: body, widget: markdown }

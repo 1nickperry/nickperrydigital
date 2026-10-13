@@ -1,0 +1,30 @@
+{
+  "title": "Web design and development",
+  "menuTitle": "Web design and development",
+  "slug": "web-design",
+  "order": 2,
+  "summary": "A fast marketing site built to be found, with the Google listing set up and 90 days of SEO included.",
+  "metaTitle": "Web Design for Western Slope Businesses | Nick Perry Digital",
+  "metaDescription": "A $1,000 website build for local businesses: SEO-ready site, Google Business Profile setup, and 90 days of SEO. You own the site.",
+  "body": "The $1,000 website build is for a local business that needs a clear site, not a custom web app. People should see what you do, where you work, and how to call you. The pages should also give Google and AI tools something accurate to repeat.\n\nThe build includes Google Business Profile setup and 90 days of SEO after launch. Launch day is the start of that window, not the end of the job. You own the site, the domain, and the content. A larger or more custom site is quoted before any work starts.",
+  "gets": [
+    "A marketing site aimed at calls and form fills",
+    "Page titles, headings, and copy structured for local search",
+    "Mobile layout, fast pages, and basic on-page SEO",
+    "Google Business Profile setup tied to the new site",
+    "90 days of SEO after launch",
+    "A site you own, including the domain and the content"
+  ],
+  "steps": [
+    { "title": "Scope", "text": "On the strategy call we name the services, the towns, and the pages. The $1,000 build has a clear edge. Past that edge, I quote the extra work first." },
+    { "title": "Build", "text": "I design and develop the site, write the core pages with you, and connect the forms and the call links." },
+    { "title": "Launch, then 90 days", "text": "After the site is live I keep working on search for 90 days: the listing, on-page fixes, and the first content updates." }
+  ],
+  "pairs": ["local-seo", "google-business-profile", "website-care"],
+  "faqs": [
+    { "q": "What does the $1,000 build include?", "a": "An SEO-ready website, Google Business Profile setup, and 90 days of SEO after launch. You own the site, the domain, and the content." },
+    { "q": "What platform do you build on?", "a": "Most local sites are WordPress because you can keep them without me. Smaller sites can be fast static pages when that fits. I will say which one I recommend before we start." },
+    { "q": "How long does a site take?", "a": "A standard local build is often a few weeks once I have your photos, services, and feedback. The quote includes a target window." },
+    { "q": "What happens after the 90 days?", "a": "You can stop, move to a monthly plan, or add the $150 care plan for hosting, updates, and small edits. Nothing renews by surprise." }
+  ]
+}

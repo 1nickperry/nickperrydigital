@@ -1,0 +1,29 @@
+{
+  "title": "Brand identity and style guide",
+  "menuTitle": "Brand identity and style guide",
+  "slug": "brand-identity",
+  "order": 1,
+  "summary": "A name treatment, colors, type, and a short guide so the site and the Google listing look like the same business.",
+  "metaTitle": "Brand Identity and Style Guide | Nick Perry Digital",
+  "metaDescription": "Logo, color, type, and a simple style guide for Western Slope businesses. Quoted separately from the $1,000 website build.",
+  "body": "A website cannot fix a muddled name. If the truck, the Google listing, and the homepage each introduce the company a different way, people hesitate before they call.\n\nThis is a focused identity pass, not a six-month rebrand. You get a wordmark or a simple logo, a small palette, type choices, and a guide your next vendor can follow. It is a custom quote. It is not included in the $1,000 website build.",
+  "gets": [
+    "Wordmark or simple logo, with files you can hand to a printer",
+    "Color and type choices that work on a site and on a Google profile",
+    "A one-page style guide: clear space, do and do not, and file names",
+    "Guidance on the business name as it should appear in search",
+    "You own the files"
+  ],
+  "steps": [
+    { "title": "Listen", "text": "We start with what customers already call you, what the truck says, and which jobs you want more of." },
+    { "title": "Draw a tight set", "text": "I show a small number of directions. We pick one and refine it. You are not sorting through a pile of unused concepts." },
+    { "title": "Hand it off", "text": "You get the files and the guide. The website and the Google listing then use the same name and the same look." }
+  ],
+  "pairs": ["web-design", "google-business-profile", "lead-generation"],
+  "faqs": [
+    { "q": "Is branding included in the $1,000 website?", "a": "No. The website build assumes you already have a name and a basic look, or that we use a clean type treatment. A drawn logo and a style guide are quoted on their own." },
+    { "q": "Can you match a logo I already have?", "a": "Yes. If the files are usable, I will build the site and the listing around them instead of redrawing the brand." },
+    { "q": "Do I own the logo?", "a": "Yes. When the invoice for the identity work is paid, the logo and the guide are yours." },
+    { "q": "How long does this take?", "a": "A tight identity pass is usually a couple of weeks, depending on how fast feedback comes back. I will put the timing in the quote." }
+  ]
+}

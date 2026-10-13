@@ -1,0 +1,29 @@
+{
+  "title": "Website care and hosting",
+  "menuTitle": "Website care and hosting",
+  "slug": "website-care",
+  "order": 10,
+  "summary": "The optional $150 a month plan for hosting, security updates, software updates, and small edits.",
+  "metaTitle": "Website Care Plan, $150 a Month | Nick Perry Digital",
+  "metaDescription": "Optional $150 monthly care plan: hosting, security updates, software updates, and small edits. Month to month, after the included 90 days.",
+  "body": "A site that never gets updated becomes a liability. Plugins drift, forms break, and a small text change sits in an email for three weeks.\n\nThe care plan is $150 a month. It covers hosting, security updates, software updates, and small edits. It is optional. The website build already includes 90 days of SEO, and you do not have to stay after that. There is no annual lock-in. If your site is WordPress, the plan includes those updates. If it is a static site, the plan is lighter and I will say so in the quote.",
+  "gets": [
+    "Hosting on the care plan",
+    "Security updates and software updates",
+    "Small content edits, such as hours, a photo, or a service line",
+    "A check that forms and the phone links still work",
+    "Month-to-month terms. You can leave with your site"
+  ],
+  "steps": [
+    { "title": "Look at the site", "text": "I confirm the platform, who holds the domain, and whether hosting should move." },
+    { "title": "Put it on a schedule", "text": "Updates happen on a rhythm instead of after something breaks." },
+    { "title": "Take small edits", "text": "Send the change. If it is bigger than a small edit, I will say so before doing it." }
+  ],
+  "pairs": ["web-design", "organic-seo", "local-seo"],
+  "faqs": [
+    { "q": "Is the care plan required?", "a": "No. It is $150 a month and optional. After the 90 days included with a website build, you can maintain the site yourself." },
+    { "q": "What counts as a small edit?", "a": "A few text changes, a photo swap, an hour change, or a similar tweak. A new page set or a redesign is quoted." },
+    { "q": "Do I lose the site if I cancel?", "a": "No. You own the site, the domain, and the content. If I am hosting it, I will help you move the files when you leave." },
+    { "q": "Does this include SEO?", "a": "The care plan is upkeep. Ongoing SEO and listing management are the $850 and $1,500 plans. You can hold both, or neither." }
+  ]
+}

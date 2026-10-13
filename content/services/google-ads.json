@@ -1,0 +1,30 @@
+{
+  "title": "Google Ads",
+  "menuTitle": "Google Ads",
+  "slug": "google-ads",
+  "order": 6,
+  "summary": "Search ads when you want calls this month, quoted around your budget. Not bundled into the monthly SEO plans.",
+  "metaTitle": "Google Ads Management | Nick Perry Digital",
+  "metaDescription": "Google Ads management for Western Slope businesses, priced as a custom quote. Separate from the $850 and $1,500 SEO plans.",
+  "body": "Ads are for demand you want to buy while SEO and the listing compound. I manage search campaigns for businesses that already know which jobs are worth a lead. The management fee is a custom quote based on the account and the ad budget. Google bills the ad spend itself.\n\nThis is not the same thing as Local Services Ads. Where a category qualifies, Local Services Ads setup and management sit inside the monthly plans. Standard Google Ads, the auctions with keywords and ads you write, are the add-on.",
+  "gets": [
+    "A recommendation on whether ads are even a fit",
+    "Campaign structure around services and towns, not one mixed ad group",
+    "Conversion tracking for calls and forms before spend scales up",
+    "Negative keywords and search-term reviews",
+    "A plain report on spend, calls, and wasted queries",
+    "You own the ads account"
+  ],
+  "steps": [
+    { "title": "Decide", "text": "If the site or the listing cannot take a call cleanly, we fix that before buying more traffic." },
+    { "title": "Launch small", "text": "The first weeks are for learning which searches are real jobs and which are noise." },
+    { "title": "Trim", "text": "I cut queries that do not match the work and shift budget toward the ones that do." }
+  ],
+  "pairs": ["lead-generation", "web-design", "conversion-rate-optimization"],
+  "faqs": [
+    { "q": "Is Google Ads included in the $850 plan?", "a": "No. Search ads management is a custom quote. Local Services Ads, where Google offers them for your category, are part of the monthly plans." },
+    { "q": "How much should I budget for ads?", "a": "That depends on the job and the town. I will not invent a number on this page. On the strategy call we look at what a lead is worth and start from there." },
+    { "q": "Do I own the account?", "a": "Yes. The account should be created under your Google login. I get access to manage it. If we stop, the campaigns stay with you." },
+    { "q": "Can ads replace SEO?", "a": "They can cover a gap. They do not build the listing or the site. When the spend stops, the calls from ads stop with it." }
+  ]
+}
