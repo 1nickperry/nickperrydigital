@@ -1,0 +1,64 @@
+backend:
+  name: github
+  repo: 1nickperry/nickperrydigital
+  branch: main
+  # After merge, Hostinger Git can auto-deploy main. Until then, edit locally
+  # with `npx decap-server` and local_backend: true.
+
+local_backend: true
+
+publish_mode: simple
+media_folder: assets/uploads
+public_folder: /assets/uploads
+site_url: https://nickperrydigital.com
+display_url: https://nickperrydigital.com
+logo_url: /assets/images/logo/icon-light-512.png
+
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: placeholders
+        label: Contact placeholders
+        file: content/settings.json
+        fields:
+          - { label: Site name, name: siteName, widget: string }
+          - { label: Domain, name: domain, widget: string }
+          - { label: Phone display, name: phoneDisplay, widget: string, hint: "Replace [PHONE NUMBER] with the live number." }
+          - { label: Phone link, name: phoneHref, widget: string, hint: "Use tel:+1XXXXXXXXXX" }
+          - { label: Booking URL, name: bookingUrl, widget: string, hint: "Replace #booking-placeholder with the live calendar link." }
+          - { label: Booking label, name: bookingLabel, widget: string }
+          - { label: Email display, name: emailDisplay, widget: string }
+          - { label: Email link, name: emailHref, widget: string }
+          - { label: Form endpoint, name: formEndpoint, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+
+  - name: insights
+    label: Insights
+    folder: content/insights
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Publish date, name: date, widget: datetime }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Target keyword, name: keyword, widget: string }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: case_studies
+    label: Case studies
+    folder: content/case-studies
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Industry, name: industry, widget: string }
+      - { label: Placeholder, name: placeholder, widget: boolean, default: true }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Body, name: body, widget: markdown }
