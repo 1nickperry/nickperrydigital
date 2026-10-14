@@ -586,25 +586,26 @@ def build_pricing() -> None:
     {hero(d, "grid", "Pricing", "Simple pricing for Western Slope businesses", "Show up, stand out, and turn searchers into customers. Straightforward numbers. No long-term contracts.")}
     <section class="section section-ivory">
       <div class="wrap">
+        <p class="muted">Monthly plans can be added to a new site or an existing one.</p>
         <div class="grid-3">
           <article class="price-card">
             <p class="kicker">Website</p>
             <p class="price">$1,000 <span>one-time</span></p>
-            <p>SEO-ready local website. Clear services, click-to-call, and a structure search can understand. Includes Google Business Profile setup help.</p>
+            <p>A one-time website build. Clear services, click-to-call, and a structure search can understand. Includes Google Business Profile setup help.</p>
             <p class="muted">Best for: businesses that need a site they own, not a locked template.</p>
             <div class="actions"><a class="btn" href="#booking-placeholder" data-booking-href data-booking-label>Book a call</a></div>
           </article>
           <article class="price-card">
-            <p class="kicker">GBP + Website</p>
+            <p class="kicker">Local SEO</p>
             <p class="price">$850 <span>per month</span></p>
-            <p>Google Business Profile management plus website SEO. The foundation plan and the usual starting point.</p>
+            <p>A monthly growth plan covering Google Business Profile management and ongoing website SEO.</p>
             <p class="muted">Best for: every local service business that needs Maps and the site working together.</p>
             <div class="actions"><a class="btn" href="#booking-placeholder" data-booking-href data-booking-label>Book a call</a></div>
           </article>
           <article class="price-card">
-            <p class="kicker">GBP + Website + AI Search</p>
+            <p class="kicker">Local SEO + AI Search</p>
             <p class="price">$1,500 <span>per month</span></p>
-            <p>Everything in the foundation plan, plus AI search optimization (AEO/GEO), AI visibility reporting, and local link and PR outreach.</p>
+            <p>Everything in Local SEO, plus AI search optimization (AEO/GEO), AI visibility reporting, and local link and PR outreach.</p>
             <p class="muted">Best for: businesses that want Google and AI answers before competitors catch up.</p>
             <div class="actions"><a class="btn" href="#booking-placeholder" data-booking-href data-booking-label>Book a call</a></div>
           </article>
